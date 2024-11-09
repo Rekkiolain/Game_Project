@@ -1,0 +1,135 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Levels/1.tsx",
+    "expandedProjectPaths": [
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "Levels/1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "Levels/Collisions.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 11,
+            "scaleInEditor": 11
+        },
+        "Levels/Day1.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 160.33333333333334,
+                "y": 88.49999999999999
+            }
+        },
+        "Levels/Day2.tmx": {
+            "expandedGroupLayers": [
+                7
+            ],
+            "scale": 3,
+            "selectedLayer": 7,
+            "viewCenter": {
+                "x": 163.66666666666666,
+                "y": 61.833333333333314
+            }
+        },
+        "Levels/Level1/1.1.tmx": {
+            "scale": 3.23,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160.06191950464398,
+                "y": 88.08049535603715
+            }
+        },
+        "Levels/Level1/1.2.tmx": {
+            "scale": 3.23,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 160.06191950464398,
+                "y": 88.08049535603715
+            }
+        },
+        "TileSets/Donjon.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 2,
+            "scaleInEditor": 3
+        },
+        "TileSets/Dungeon Tile Set.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "TileSets/Image1.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TileSets/Image2.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TileSets/Image3.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TileSets/Image4.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "TileSets/[v1.3] tranquil_tunnels_darker.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 4,
+            "scaleInEditor": 4
+        },
+        "TileSets/[v1.3] tranquil_tunnels_transparent.tsx": {
+            "scaleInDock": 2,
+            "scaleInEditor": 1
+        },
+        "TileSets/oak_woods_tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/me/Desktop/Game_Project/TileSets",
+    "map.height": 22,
+    "map.lastUsedFormat": "tmx",
+    "map.renderOrder": "2",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 40,
+    "openFiles": [
+        "Levels/Day2.tmx",
+        "TileSets/Donjon.tsx",
+        "Levels/1.tsx",
+        "Levels/Collisions.tsx"
+    ],
+    "project": "TileMap.tiled-project",
+    "recentFiles": [
+        "Levels/Day2.tmx",
+        "TileSets/Donjon.tsx",
+        "Levels/Collisions.tsx",
+        "Levels/1.tsx",
+        "TileSets/[v1.3] tranquil_tunnels_transparent.tsx",
+        "TileSets/[v1.3] tranquil_tunnels_darker.tsx",
+        "Levels/Day1.tmx",
+        "TileSets/Image4.tsx",
+        "TileSets/Image3.tsx",
+        "TileSets/Image2.tsx",
+        "TileSets/Image1.tsx",
+        "TileSets/oak_woods_tileset.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    },
+    "tileset.type": 0
+}

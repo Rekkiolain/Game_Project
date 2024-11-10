@@ -1,0 +1,8 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/me/Desktop/Game_Project/Game_Project/Assets/blocks.png","C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/bin/DesktopGL/../../Assets/blocks_1.xnb","TextureProcessor","Texture2DContent",154034,4194389,0,1248579
+"C:/Users/me/Desktop/Game_Project/Game_Project/Assets/blocks.tsx","C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/bin/DesktopGL/../../Assets/blocks_0.xnb","TiledMapTilesetProcessor","TiledMapTilesetContentItem",233,179,0,1508614
+"C:/Users/me/Desktop/Game_Project/Game_Project/Assets/Images.tsx","C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/bin/DesktopGL/../../Assets/Images_0.xnb","TiledMapTilesetProcessor","TiledMapTilesetContentItem",158,171,0,002713
+"C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/back-walls.png","C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/bin/DesktopGL/back-walls.xnb","TextureProcessor","Texture2DContent",9360,589909,0,1337677
+"C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/background.png","C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/bin/DesktopGL/background.xnb","TextureProcessor","Texture2DContent",2085,221269,0,0072259
+"C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/blocks.png","C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/bin/DesktopGL/blocksblocks.xnb","TextureProcessor","Texture2DContent",154034,4194389,0,1317221
+"C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/map1.tmx","C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/bin/DesktopGL/map1.xnb","TiledMapProcessor","TiledMapContentItem",7149,3470,0,2303684

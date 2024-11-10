@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/back-walls.png</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/background.png</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/blocks.png</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/map1.tmx</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>blocksblocks.png</File>
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

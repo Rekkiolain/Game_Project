@@ -1,0 +1,5 @@
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\obj\Debug\net6.0\Project1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\obj\Debug\net6.0\Project1.AssemblyInfoInputs.cache
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\obj\Debug\net6.0\Project1.AssemblyInfo.cs
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\obj\Debug\net6.0\Project1.csproj.CoreCompileInputs.cache
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\obj\Debug\net6.0\Project1.sourcelink.json

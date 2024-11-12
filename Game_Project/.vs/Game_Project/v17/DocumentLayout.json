@@ -5,6 +5,20 @@
     {
       "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\map\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\map\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\map\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\map\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\me\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +28,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\Camera.cs",
+              "RelativeDocumentMoniker": "Project1\\Map\\Camera.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\Camera.cs",
+              "RelativeToolTip": "Project1\\Map\\Camera.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T17:29:31.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALQUAAAAAAAAAAAowMgUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-11T17:14:57.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MonoGame.Content.Builder.Task.targets",
+              "DocumentMoniker": "C:\\Users\\me\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets",
+              "ToolTip": "C:\\Users\\me\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAowI4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-11T00:29:03.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Game1.cs",
+              "RelativeDocumentMoniker": "Project1\\Game1.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Game1.cs",
+              "RelativeToolTip": "Project1\\Game1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:54:25.729Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +94,7 @@
               "RelativeDocumentMoniker": "Project1\\Map\\MapLoader.cs",
               "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\MapLoader.cs",
               "RelativeToolTip": "Project1\\Map\\MapLoader.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-09T18:57:47.639Z",
               "EditorCaption": ""

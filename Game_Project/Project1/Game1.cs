@@ -1,9 +1,7 @@
-﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework;
 using Project1.Map;
-using System;
-using TiledSharp;
 
 namespace Project1
 {
@@ -11,26 +9,22 @@ namespace Project1
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
-        private TmxMap map;
-        private MapLoader mapManager;
+        private MapLoader _mapLoader;
 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
-
         }
 
         protected override void Initialize()
         {
-            //window resolution
-            _graphics.PreferredBackBufferWidth = 1920; //width
-            _graphics.PreferredBackBufferHeight = 960; //height
+            // Set window resolution and fullscreen mode
+            _graphics.PreferredBackBufferWidth = 1920;
+            _graphics.PreferredBackBufferHeight = 960;
             _graphics.IsFullScreen = true;
             _graphics.ApplyChanges();
-
 
             base.Initialize();
         }
@@ -39,31 +33,35 @@ namespace Project1
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            int screenWidth = GraphicsDevice.Viewport.Width;
-            int screenHeight = GraphicsDevice.Viewport.Height;
+            // Initialize the map loader
+            _mapLoader = new MapLoader(GraphicsDevice);
+            _mapLoader.LoadContent(Content);
 
-            // Initialize MapLoader with relevant parameters
-            mapManager = new MapLoader(_spriteBatch, Content, "Content/map1.tmx", "blocks", screenWidth, screenHeight);
+            // Set graphics settings to reduce blurriness
+            GraphicsDevice.SamplerStates[0] = SamplerState.PointClamp;
+            GraphicsDevice.BlendState = BlendState.AlphaBlend;
         }
-
-
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
+                Keyboard.GetState().IsKeyDown(Keys.Escape))
+            {
                 Exit();
+            }
 
-            // TODO: Add your update logic here
-
+            _mapLoader.Update(gameTime);
             base.Update(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
-            // TODO: Add your drawing code here
-            mapManager.Draw();
+            // Draw the map with scaling
+            var scaleMatrix = Matrix.CreateScale(6.0f);
+            _mapLoader.Draw(scaleMatrix);
+
             base.Draw(gameTime);
         }
     }

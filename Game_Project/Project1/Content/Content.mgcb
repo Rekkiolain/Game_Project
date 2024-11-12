@@ -15,7 +15,7 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin back-walls.png
+#begin Assets/blocks.png
 /importer:TextureImporter
 /processor:TextureProcessor
 /processorParam:ColorKeyColor=255,0,255,255
@@ -25,34 +25,20 @@
 /processorParam:ResizeToPowerOfTwo=False
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
-/build:back-walls.png
+/build:Assets/blocks.png
 
-#begin background.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:background.png
+#begin Assets/blocks.tsx
+/importer:TiledMapTilesetImporter
+/processor:TiledMapTilesetProcessor
+/build:Assets/blocks.tsx
 
-#begin blocks.png
-/importer:TextureImporter
-/processor:TextureProcessor
-/processorParam:ColorKeyColor=255,0,255,255
-/processorParam:ColorKeyEnabled=True
-/processorParam:GenerateMipmaps=False
-/processorParam:PremultiplyAlpha=True
-/processorParam:ResizeToPowerOfTwo=False
-/processorParam:MakeSquare=False
-/processorParam:TextureFormat=Color
-/build:blocks.png;blocksblocks.png
-
-#begin map1.tmx
+#begin Test1.tmx
 /importer:TiledMapImporter
 /processor:TiledMapProcessor
-/build:map1.tmx
+/build:Test1.tmx
+
+#begin Test2.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Test2.tmx
 

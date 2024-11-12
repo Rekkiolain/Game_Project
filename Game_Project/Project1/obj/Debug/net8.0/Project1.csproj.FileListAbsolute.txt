@@ -29,7 +29,9 @@ C:\Users\me\Desktop\Game_Project\Game_Project\Project1\obj\Debug\net8.0\Project1
 C:\Users\me\Desktop\Game_Project\Game_Project\Project1\obj\Debug\net8.0\Project1.genruntimeconfig.cache
 C:\Users\me\Desktop\Game_Project\Game_Project\Project1\obj\Debug\net8.0\ref\Project1.dll
 C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\blocks.xnb
-C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\blocksblocks.xnb
-C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\map1.xnb
-C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\back-walls.xnb
-C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\background.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Assets\blocks.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Assets\blocks_0.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\blocks_0.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\blocks_1.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Test1.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Test2.xnb

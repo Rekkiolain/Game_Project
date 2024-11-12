@@ -4,15 +4,15 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/back-walls.png</File>
-    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/background.png</File>
-    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/blocks.png</File>
-    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/map1.tmx</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/blocks.png</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/blocks.tsx</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Test1.tmx</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Test2.tmx</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
-    <File>blocksblocks.png</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

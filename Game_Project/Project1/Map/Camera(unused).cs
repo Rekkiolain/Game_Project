@@ -10,7 +10,7 @@ namespace Project1.Map
 {
     internal class Camera 
     {
-        private OrthographicCamera _camera;
+        public OrthographicCamera _camera;
         private Vector2 _cameraPosition;
         private Vector2 GetMovementDirection()
         {
@@ -48,6 +48,19 @@ namespace Project1.Map
             var seconds = gameTime.GetElapsedSeconds();
             var movementDirection = GetMovementDirection();
             _cameraPosition += speed * movementDirection * seconds;
+        }
+
+        public void Update(GameTime gameTime, TiledMapRenderer _tiledMapRenderer)
+        {
+            _tiledMapRenderer.Update(gameTime);
+
+            MoveCamera(gameTime);
+            _camera.LookAt(_cameraPosition);
+        }
+
+        public void Draw(GameTime gameTime, TiledMapRenderer _tiledMapRenderer)
+        {
+            _tiledMapRenderer.Draw(_camera.GetViewMatrix());
         }
     }
 }

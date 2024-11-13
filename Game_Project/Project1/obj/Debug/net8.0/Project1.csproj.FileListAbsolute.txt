@@ -33,5 +33,6 @@ C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\
 C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Assets\blocks_0.xnb
 C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\blocks_0.xnb
 C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\blocks_1.xnb
-C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Test1.xnb
-C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Test2.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Test3.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Assets\NPC\Bird_NPC.xnb
+C:\Users\me\Desktop\Game_Project\Game_Project\Project1\bin\Debug\net8.0\Content\Assets\Backgrounds\background.xnb

@@ -15,6 +15,18 @@
 
 #---------------------------------- Content ---------------------------------#
 
+#begin Assets/Backgrounds/background.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Assets/Backgrounds/background.png
+
 #begin Assets/blocks.png
 /importer:TextureImporter
 /processor:TextureProcessor
@@ -32,13 +44,20 @@
 /processor:TiledMapTilesetProcessor
 /build:Assets/blocks.tsx
 
-#begin Test1.tmx
-/importer:TiledMapImporter
-/processor:TiledMapProcessor
-/build:Test1.tmx
+#begin Assets/NPC/Bird_NPC.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Assets/NPC/Bird_NPC.png
 
-#begin Test2.tmx
+#begin Test3.tmx
 /importer:TiledMapImporter
 /processor:TiledMapProcessor
-/build:Test2.tmx
+/build:Test3.tmx
 

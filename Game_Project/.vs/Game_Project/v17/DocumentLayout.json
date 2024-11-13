@@ -7,18 +7,36 @@
       "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\map\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\map\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\map\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\scenemanaging\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\scenemanaging\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\scenemanaging\\world1\\level_1_world_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\scenemanaging\\world1\\level_1_world_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\me\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\entities\\entity_animation_loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\entities\\entity_animation_loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\map\\camera(unused).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\map\\camera(unused).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\entities\\npc\\bird_npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\entities\\npc\\bird_npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\entities\\npc\\enemy_npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\entities\\npc\\enemy_npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -36,54 +54,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\Camera.cs",
-              "RelativeDocumentMoniker": "Project1\\Map\\Camera.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\Camera.cs",
-              "RelativeToolTip": "Project1\\Map\\Camera.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAwAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Level_1_World_1.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
+              "RelativeDocumentMoniker": "Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
+              "RelativeToolTip": "Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwDYAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T17:29:31.631Z",
+              "WhenOpened": "2024-11-13T01:20:49.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StartMenu.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\StartMenu.cs",
+              "RelativeDocumentMoniker": "Project1\\SceneManaging\\StartMenu.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\StartMenu.cs",
+              "RelativeToolTip": "Project1\\SceneManaging\\StartMenu.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T00:32:02.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enemy_NPC.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\NPC\\Enemy_NPC.cs",
+              "RelativeDocumentMoniker": "Project1\\Entities\\NPC\\Enemy_NPC.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\NPC\\Enemy_NPC.cs",
+              "RelativeToolTip": "Project1\\Entities\\NPC\\Enemy_NPC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T22:37:08.454Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALQUAAAAAAAAAAAowMgUAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-11-11T17:14:57.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MonoGame.Content.Builder.Task.targets",
-              "DocumentMoniker": "C:\\Users\\me\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets",
-              "ToolTip": "C:\\Users\\me\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets",
-              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\monogame.content.builder.task\\3.8.2.1105\\build\\MonoGame.Content.Builder.Task.targets",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAowI4AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-11-11T00:29:03.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Game1.cs",
-              "RelativeDocumentMoniker": "Project1\\Game1.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Game1.cs",
-              "RelativeToolTip": "Project1\\Game1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Title": "Entity_Animation_Loader.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\Entity_Animation_Loader.cs",
+              "RelativeDocumentMoniker": "Project1\\Entities\\Entity_Animation_Loader.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\Entity_Animation_Loader.cs",
+              "RelativeToolTip": "Project1\\Entities\\Entity_Animation_Loader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T17:54:25.729Z",
+              "WhenOpened": "2024-11-12T22:33:12.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bird_NPC.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\NPC\\Bird_NPC.cs",
+              "RelativeDocumentMoniker": "Project1\\Entities\\NPC\\Bird_NPC.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\NPC\\Bird_NPC.cs",
+              "RelativeToolTip": "Project1\\Entities\\NPC\\Bird_NPC.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwDEAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:52:55.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Program.cs",
+              "RelativeDocumentMoniker": "Project1\\Program.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Program.cs",
+              "RelativeToolTip": "Project1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:46:19.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Camera(unused).cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\Camera(unused).cs",
+              "RelativeDocumentMoniker": "Project1\\Map\\Camera(unused).cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\Camera(unused).cs",
+              "RelativeToolTip": "Project1\\Map\\Camera(unused).cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T00:29:58.792Z",
               "EditorCaption": ""
             },
             {
@@ -94,9 +151,22 @@
               "RelativeDocumentMoniker": "Project1\\Map\\MapLoader.cs",
               "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\MapLoader.cs",
               "RelativeToolTip": "Project1\\Map\\MapLoader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwDEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T18:57:47.639Z",
+              "WhenOpened": "2024-11-12T00:29:59.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Game1.cs",
+              "RelativeDocumentMoniker": "Project1\\Game1.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Game1.cs",
+              "RelativeToolTip": "Project1\\Game1.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:54:25.729Z",
               "EditorCaption": ""
             }
           ]

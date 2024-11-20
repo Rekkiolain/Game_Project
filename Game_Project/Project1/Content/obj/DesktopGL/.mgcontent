@@ -4,15 +4,23 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/Backgrounds/background.png</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/Backgrounds/Background Image.png</File>
     <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/blocks.png</File>
     <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/blocks.tsx</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/Font.spritefont</File>
     <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/NPC/Bird_NPC.png</File>
-    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Test3.tmx</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Assets/Player/Spritesheet.png</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Test5.tmx</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Test6.tmx</File>
+    <File>C:/Users/me/Desktop/Game_Project/Game_Project/Project1/Content/Test7.tmx</File>
   </SourceFiles>
   <DestFiles>
+    <File>Assets/Backgrounds/background_main_menu.png</File>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>Assets/Player/Player.png</File>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

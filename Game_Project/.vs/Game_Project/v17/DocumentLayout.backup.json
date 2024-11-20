@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\entities\\player_character\\marine_hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\entities\\player_character\\marine_hero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\scenemanaging\\maploading\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\scenemanaging\\maploading\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\scenemanaging\\world1\\level_1_world_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\scenemanaging\\world1\\level_1_world_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\map\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\map\\maploader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\scenemanaging\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\scenemanaging\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\entities\\entity_animation_loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\entities\\entity_animation_loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\map\\camera(unused).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\map\\camera(unused).cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\entities\\npc\\bird_npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\entities\\npc\\bird_npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|c:\\users\\me\\desktop\\game_project\\game_project\\project1\\entities\\npc\\enemy_npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0B73A80-B44A-4ABE-B6DA-03690E71CA53}|Project1\\Project1.csproj|solutionrelative:project1\\entities\\npc\\enemy_npc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\StartMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Project1\\SceneManaging\\StartMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,114 +30,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartMenu.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\StartMenu.cs",
+              "RelativeDocumentMoniker": "Project1\\SceneManaging\\StartMenu.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\StartMenu.cs",
+              "RelativeToolTip": "Project1\\SceneManaging\\StartMenu.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T00:32:02.062Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Level_1_World_1.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
-              "RelativeDocumentMoniker": "Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\World1\\Level_1_World_1.cs*",
-              "RelativeToolTip": "Project1\\SceneManaging\\World1\\Level_1_World_1.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDYAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:20:49.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StartMenu.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\StartMenu.cs",
-              "RelativeDocumentMoniker": "Project1\\SceneManaging\\StartMenu.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\StartMenu.cs",
-              "RelativeToolTip": "Project1\\SceneManaging\\StartMenu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T00:32:02.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Enemy_NPC.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\NPC\\Enemy_NPC.cs",
-              "RelativeDocumentMoniker": "Project1\\Entities\\NPC\\Enemy_NPC.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\NPC\\Enemy_NPC.cs",
-              "RelativeToolTip": "Project1\\Entities\\NPC\\Enemy_NPC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T22:37:08.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Entity_Animation_Loader.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\Entity_Animation_Loader.cs",
-              "RelativeDocumentMoniker": "Project1\\Entities\\Entity_Animation_Loader.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\Entity_Animation_Loader.cs",
-              "RelativeToolTip": "Project1\\Entities\\Entity_Animation_Loader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T22:33:12.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Bird_NPC.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\NPC\\Bird_NPC.cs",
-              "RelativeDocumentMoniker": "Project1\\Entities\\NPC\\Bird_NPC.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\NPC\\Bird_NPC.cs",
-              "RelativeToolTip": "Project1\\Entities\\NPC\\Bird_NPC.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwDEAAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:52:55.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Program.cs",
-              "RelativeDocumentMoniker": "Project1\\Program.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Program.cs",
-              "RelativeToolTip": "Project1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T00:46:19.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Camera(unused).cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\Camera(unused).cs",
-              "RelativeDocumentMoniker": "Project1\\Map\\Camera(unused).cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\Camera(unused).cs",
-              "RelativeToolTip": "Project1\\Map\\Camera(unused).cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T00:29:58.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MapLoader.cs",
-              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\MapLoader.cs",
-              "RelativeDocumentMoniker": "Project1\\Map\\MapLoader.cs",
-              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Map\\MapLoader.cs",
-              "RelativeToolTip": "Project1\\Map\\MapLoader.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAwwDEAAABDAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\MapLoading\\MapLoader.cs",
+              "RelativeDocumentMoniker": "Project1\\SceneManaging\\MapLoading\\MapLoader.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\MapLoading\\MapLoader.cs",
+              "RelativeToolTip": "Project1\\SceneManaging\\MapLoading\\MapLoader.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T00:29:59.517Z",
+              "WhenOpened": "2024-11-20T11:45:00.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Marine_Hero.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\Player_Character\\Marine_Hero.cs",
+              "RelativeDocumentMoniker": "Project1\\Entities\\Player_Character\\Marine_Hero.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Entities\\Player_Character\\Marine_Hero.cs",
+              "RelativeToolTip": "Project1\\Entities\\Player_Character\\Marine_Hero.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T22:54:18.244Z",
               "EditorCaption": ""
             },
             {
@@ -164,9 +82,21 @@
               "RelativeDocumentMoniker": "Project1\\Game1.cs",
               "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\Game1.cs",
               "RelativeToolTip": "Project1\\Game1.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAzwDkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T17:54:25.729Z",
+              "WhenOpened": "2024-11-19T22:40:13.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Level_1_World_1.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
+              "RelativeDocumentMoniker": "Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\Game_Project\\Game_Project\\Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
+              "RelativeToolTip": "Project1\\SceneManaging\\World1\\Level_1_World_1.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T19:19:07.759Z",
               "EditorCaption": ""
             }
           ]

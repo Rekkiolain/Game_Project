@@ -1,14 +1,13 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
-using Project1.Map;
 using MonoGame.Extended.ViewportAdapters;
 using MonoGame.Extended;
 using Project1.Entities.NPC;
 using MonoGame.Extended.Screens;
 using MonoGame.Extended.Screens.Transitions;
-using Project1.StartMenu;
 using Project1.SceneManaging.World1;
+using Project1.SceneManaging.StartMenu_UI;
 
 namespace Project1
 {
@@ -16,13 +15,8 @@ namespace Project1
     {
         private GraphicsDeviceManager _graphics;
         public SpriteBatch _spriteBatch;
-        private MapLoader _mapLoader;
-        private Bird_NPC _bird_NPC;
 
         private readonly ScreenManager _screenManager;
-
-
-
 
         public Game1()
         {
@@ -36,17 +30,15 @@ namespace Project1
 
         protected override void Initialize()
         {
-            // Set window resolution and fullscreen mode
             _graphics.PreferredBackBufferWidth = 1920;
             _graphics.PreferredBackBufferHeight = 1080;
             _graphics.IsFullScreen = true;
             _graphics.ApplyChanges();
+            _screenManager.LoadScreen(new StartMenu(this));
 
 
-         
 
             base.Initialize();
-
         }
 
         protected override void LoadContent()
@@ -88,9 +80,9 @@ namespace Project1
 
         private void Load_StartMenu()
         {
-            _screenManager.LoadScreen(new StartMenu.StartMenu(this), new FadeTransition(GraphicsDevice, Color.Black));
+            _screenManager.LoadScreen(new StartMenu(this), new FadeTransition(GraphicsDevice, Color.Black));
         }
-        private void Load_Level_1_World_1()
+        public void Load_Level_1_World_1()
         {
             _screenManager.LoadScreen(new Level_1_World_1(this), new FadeTransition(GraphicsDevice, Color.Black));
         }

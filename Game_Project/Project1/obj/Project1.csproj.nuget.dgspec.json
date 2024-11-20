@@ -66,6 +66,10 @@
               "target": "Package",
               "version": "[3.8.2.1105, )"
             },
+            "Myra": {
+              "target": "Package",
+              "version": "[1.5.7, )"
+            },
             "TiledSharp": {
               "target": "Package",
               "version": "[1.0.1, )"

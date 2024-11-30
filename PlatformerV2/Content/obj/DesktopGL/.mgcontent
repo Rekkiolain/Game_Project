@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/me/source/repos/PlatformerV2/PlatformerV2/Content/blocks.png</File>
+    <File>C:/Users/me/source/repos/PlatformerV2/PlatformerV2/Content/Font.spritefont</File>
+    <File>C:/Users/me/source/repos/PlatformerV2/PlatformerV2/Content/Spritesheet.png</File>
+    <File>C:/Users/me/source/repos/PlatformerV2/PlatformerV2/Content/Test11.tmx</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File>Hero.png</File>
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

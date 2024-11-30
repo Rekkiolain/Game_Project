@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/me/source/repos/PlatformerV2/PlatformerV2/Content/Test11.tmx</SourceFile>
+  <SourceTime>2024-11-28T23:40:22.0271309+01:00</SourceTime>
+  <DestFile>C:/Users/me/source/repos/PlatformerV2/PlatformerV2/Content/bin/DesktopGL/Test11.xnb</DestFile>
+  <DestTime>2024-11-28T23:40:40.7054015+01:00</DestTime>
+  <Importer>TiledMapImporter</Importer>
+  <ImporterTime>2024-09-30T05:14:14+02:00</ImporterTime>
+  <Processor>TiledMapProcessor</Processor>
+  <ProcessorTime>2024-09-30T05:14:14+02:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset>
+    <string>C:/Users/me/source/repos/PlatformerV2/PlatformerV2/Content/bin/DesktopGL/../../Assets/blocks_0.xnb</string>
+    <string>C:/Users/me/source/repos/PlatformerV2/PlatformerV2/Content/bin/DesktopGL/../../Assets/collision-boxes_0.xnb</string>
+  </BuildAsset>
+  <BuildOutput />
+</PipelineBuildEvent>

@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/me/Desktop/PlatformerV3/SchoolProject/PlatformerV3/Content/blocks.png","C:/Users/me/Desktop/PlatformerV3/SchoolProject/PlatformerV3/Content/bin/DesktopGL/blocks.xnb","TextureProcessor","Texture2DContent",174834,4194389,0,2377727
+"C:/Users/me/Desktop/PlatformerV3/SchoolProject/PlatformerV3/Content/idle1.png","C:/Users/me/Desktop/PlatformerV3/SchoolProject/PlatformerV3/Content/bin/DesktopGL/Player.xnb","TextureProcessor","Texture2DContent",1303,14485,0,0018319

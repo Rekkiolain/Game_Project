@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
+using MonoGame.Extended;
+using MonoGame.Extended.Collisions.Layers;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,206 +11,118 @@ using System.Threading.Tasks;
 
 namespace PlatformerV3.Entities
 {
-    internal class EntityCollisions
+    public class EntityCollisionsV2
     {
-        private int TILESIZE = 48;
-        public List<Rectangle> Intersections;
-        private Texture2D rectangleTexture;
-        public EntityCollisions()
-        {
-            Intersections = new();
-        }
+        public List<Rectangle> _collisionRectangles; // Use Rectangle for consistency
+        public Texture2D _redTexture;
 
-        public void LoadContent(GraphicsDevice graphicsDevice)
+        public void GenerateCollisionRectangles(Dictionary<Vector2, int> _collisions)
         {
-            rectangleTexture = new Texture2D(graphicsDevice, 1, 1);
-            rectangleTexture.SetData(new Color[] { new(255, 0, 0, 255) });
-        }
+            const int tileSize = 16;
 
-        public void UpdateHorizontalIntersections(Rectangle playersRectangle)
-        {
-            Intersections = IntersectingTilesHorizontal(playersRectangle);
+            _collisionRectangles = new List<Rectangle>();
 
-        }
-        public void UpdateVerticalIntersections(Rectangle playersRectangle)
-        {
-            Intersections = IntersectingTilesVertical(playersRectangle);
-
-        }
-
-        public void Draw(SpriteBatch _spriteBatch)
-        {
-            foreach (var rect in Intersections)
+            foreach (var collision in _collisions)
             {
+                Vector2 position = collision.Key;
+                int x = (int)position.X * tileSize;
+                int y = (int)position.Y * tileSize;
 
-                DrawRectHollow(
-                    _spriteBatch,
-                    new Rectangle(
-                        rect.X * TILESIZE,
-                        rect.Y * TILESIZE,
-                        TILESIZE,
-                        TILESIZE
-                    ),
-                    1
-                );
+                Rectangle rectangle = new Rectangle(x, y, tileSize, tileSize);
 
+                _collisionRectangles.Add(rectangle);
             }
         }
-        
-        public void onHorizontalCollisions(Dictionary<Vector2, int> _collisions,Vector2 _velocity, Rectangle _rect)
+
+        public void addEntity(Rectangle entityHitBox)
         {
-            foreach (var rect in Intersections)
+            _collisionRectangles.Add(entityHitBox);
+        }
+
+        public void removeEntity(Rectangle entityHitBox)
+        {
+            _collisionRectangles.Remove(entityHitBox);
+        }
+
+        public void CreateRedTexture(GraphicsDevice graphicsDevice)
+        {
+            _redTexture = new Texture2D(graphicsDevice, 1, 1);
+            _redTexture.SetData(new[] { Color.Red });
+        }
+
+        public void Collision(Rectangle playerHitbox, ref Vector2 playerPosition, ref bool isIdle, ref bool isFalling, ref bool isOnGround)
+        {
+            var initPosition = playerPosition;
+            isOnGround = false;
+            const int margin = 2; // Small margin to prevent tight tile snapping
+
+            // Create a ground-check rectangle (slightly above the ground)
+            Rectangle groundCheck = new Rectangle(playerHitbox.X + margin, playerHitbox.Bottom, playerHitbox.Width - margin * 2, 1);
+
+            // Create a ceiling-check rectangle (slightly below the top of the player)
+            Rectangle ceilingCheck = new Rectangle(playerHitbox.X + margin, playerHitbox.Y - 1, playerHitbox.Width - margin * 2, 1);
+
+            foreach (var rect in _collisionRectangles)
             {
-
-                if (_collisions.TryGetValue(new Vector2(rect.X, rect.Y), out int _val))
+                // Wall detection - Left side
+                Rectangle leftWallCheck = new Rectangle(playerHitbox.X - margin, playerHitbox.Y + margin, 1 + margin, playerHitbox.Height - margin * 2);
+                if (rect.Intersects(leftWallCheck))
                 {
-                    Rectangle collision = new(
-                        rect.X * TILESIZE,
-                        rect.Y * TILESIZE,
-                        TILESIZE,
-                        TILESIZE
-                    );
-
-                    if (_velocity.X > 0.0f)
+                    // Only snap if the player is moving right into the wall
+                    if (playerPosition.X < rect.Right)
                     {
-                        _rect.X = collision.Left - _rect.Width;
-                    }
-                    else if (_velocity.X < 0.0f)
-                    {
-                        _rect.X = collision.Right;
+                        playerPosition.X = rect.Right; // Snap to the right edge of the wall
+                        isIdle = true;
                     }
                 }
 
-            }
-        }
-
-        public void onVerticalCollisions(Dictionary<Vector2, int> _collisions, Vector2 _velocity, Rectangle _rect)
-        {
-            foreach (var rect in Intersections)
-            {
-
-                if (_collisions.TryGetValue(new Vector2(rect.X, rect.Y), out int _val))
+                // Wall detection - Right side
+                Rectangle rightWallCheck = new Rectangle(playerHitbox.Right, playerHitbox.Y + margin, 1 + margin, playerHitbox.Height - margin * 2);
+                if (rect.Intersects(rightWallCheck))
                 {
-
-                    Rectangle collision = new Rectangle(
-                        rect.X * TILESIZE,
-                        rect.Y * TILESIZE,
-                        TILESIZE,
-                        TILESIZE
-                    );
-
-                    if (_velocity.Y > 0.0f)
+                    // Only snap if the player is moving left into the wall
+                    if (playerPosition.X > rect.Left - playerHitbox.Width)
                     {
-                        _rect.Y = collision.Top - _rect.Height;
+                        playerPosition.X = rect.Left - playerHitbox.Width; // Snap to the left edge of the wall
+                        isIdle = true;
                     }
-                    else if (_velocity.Y < 0.0f)
+                }
+
+                // Ground detection
+                if (rect.Intersects(groundCheck))
+                {
+                    isOnGround = true;
+                    isFalling = false;
+                    if (playerPosition.Y + playerHitbox.Height > rect.Top)
                     {
-                        _rect.Y = collision.Bottom;
+                        playerPosition.Y = rect.Top - playerHitbox.Height; // Align player with the floor
                     }
-
                 }
-            }
-        }
 
-
-        public List<Rectangle> IntersectingTilesHorizontal(Rectangle target)
-        {
-
-            List<Rectangle> intersections = new();
-
-            int widthInTiles = (target.Width - (target.Width % TILESIZE)) / TILESIZE;
-            int heightInTiles = (target.Height - (target.Height % TILESIZE)) / TILESIZE;
-
-            for (int x = 0; x <= widthInTiles; x++)
-            {
-                for (int y = 0; y <= heightInTiles; y++)
+                // Ceiling detection
+                if (rect.Intersects(ceilingCheck))
                 {
-
-                    intersections.Add(new Rectangle(
-
-                        (target.X + x * TILESIZE) / TILESIZE,
-                        (target.Y + y * (TILESIZE - 1)) / TILESIZE,
-                        TILESIZE,
-                        TILESIZE
-
-                    ));
-
+                    // Prevent upward movement if the player is moving up and hits the ceiling
+                    if (playerPosition.Y < rect.Bottom)
+                    {
+                        playerPosition.Y = rect.Bottom; // Snap player to the ceiling
+                        isFalling = true; // If the player hits the ceiling, they should stop going up
+                    }
                 }
             }
 
-            return intersections;
-        }
-
-        public List<Rectangle> IntersectingTilesVertical(Rectangle target)
-        {
-
-            List<Rectangle> intersections = new();
-
-            int widthInTiles = (target.Width - (target.Width % TILESIZE)) / TILESIZE;
-            int heightInTiles = (target.Height - (target.Height % TILESIZE)) / TILESIZE;
-
-            for (int x = 0; x <= widthInTiles; x++)
+            // If no ground detected, mark as falling
+            if (!isOnGround)
             {
-                for (int y = 0; y <= heightInTiles; y++)
-                {
-
-                    intersections.Add(new Rectangle(
-
-                        (target.X + x * (TILESIZE - 1)) / TILESIZE,
-                        (target.Y + y * TILESIZE) / TILESIZE,
-                        TILESIZE,
-                        TILESIZE
-
-                    ));
-
-                }
+                isFalling = true;
             }
-
-            return intersections;
         }
-        public void DrawRectHollow(SpriteBatch spriteBatch, Rectangle rect, int thickness)
-        {
-            spriteBatch.Draw(
-                rectangleTexture,
-                new Rectangle(
-                    rect.X,
-                    rect.Y,
-                    rect.Width,
-                    thickness
-                ),
-                Color.White
-            );
-            spriteBatch.Draw(
-                rectangleTexture,
-                new Rectangle(
-                    rect.X,
-                    rect.Bottom - thickness,
-                    rect.Width,
-                    thickness
-                ),
-                Color.White
-            );
-            spriteBatch.Draw(
-                rectangleTexture,
-                new Rectangle(
-                    rect.X,
-                    rect.Y,
-                    thickness,
-                    rect.Height
-                ),
-                Color.White
-            );
-            spriteBatch.Draw(
-                rectangleTexture,
-                new Rectangle(
-                    rect.Right - thickness,
-                    rect.Y,
-                    thickness,
-                    rect.Height
-                ),
-                Color.White
-            );
 
-        }
+
+
+
+
+
+
     }
 }

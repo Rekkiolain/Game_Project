@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using PlatformerV3.GameWorld.Level1;
 
 namespace PlatformerV3
 {
@@ -24,6 +25,7 @@ namespace PlatformerV3
         {
             // TODO: Add your initialization logic here
             level1 = new Level_1();
+            level1.Initialize(Window,GraphicsDevice);
             base.Initialize();
         }
 
@@ -38,7 +40,7 @@ namespace PlatformerV3
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-            level1.Update();
+            level1.Update(gameTime);
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -48,10 +50,7 @@ namespace PlatformerV3
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // TODO: Add your drawing code here
-            _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
             level1.Draw(_spriteBatch);
-            _spriteBatch.End();
 
             base.Draw(gameTime);
         }

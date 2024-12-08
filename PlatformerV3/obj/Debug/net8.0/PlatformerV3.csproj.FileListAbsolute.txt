@@ -25,3 +25,7 @@ C:\Users\me\Desktop\PlatformerV3\SchoolProject\PlatformerV3\obj\Debug\net8.0\ref
 C:\Users\me\Desktop\PlatformerV3\SchoolProject\PlatformerV3\obj\Debug\net8.0\PlatformerV3.pdb
 C:\Users\me\Desktop\PlatformerV3\SchoolProject\PlatformerV3\obj\Debug\net8.0\PlatformerV3.genruntimeconfig.cache
 C:\Users\me\Desktop\PlatformerV3\SchoolProject\PlatformerV3\obj\Debug\net8.0\ref\PlatformerV3.dll
+C:\Users\me\Desktop\PlatformerV3\SchoolProject\PlatformerV3\obj\Debug\net8.0\PlatformerV3.sourcelink.json
+C:\Users\me\Desktop\PlatformerV3\SchoolProject\PlatformerV3\bin\Debug\net8.0\MonoGame.Extended.dll
+C:\Users\me\Desktop\PlatformerV3\SchoolProject\PlatformerV3\bin\Debug\net8.0\Content\cave.xnb
+C:\Users\me\Desktop\PlatformerV3\SchoolProject\PlatformerV3\bin\Debug\net8.0\Content\Spritesheet.xnb

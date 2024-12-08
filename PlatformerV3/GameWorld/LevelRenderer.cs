@@ -8,16 +8,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlatformerV3
+namespace PlatformerV3.GameWorld
 {
     internal class LevelRenderer
     {
         private List<Rectangle> _textureStore;
         private Texture2D _textureAtlas;
 
-        public void LoadContent(ContentManager content)
+        public void LoadContent(ContentManager content,string filePath)
         {
-            _textureAtlas = content.Load<Texture2D>("blocks");
+            _textureAtlas = content.Load<Texture2D>(filePath);
             _textureStore = new List<Rectangle>();
         }
 
@@ -39,7 +39,7 @@ namespace PlatformerV3
 
         public void getTileMap(Dictionary<Vector2, int> _tileMap, SpriteBatch _spriteBatch)
         {
-            int scale = 48;
+            int scale = 16;
 
             foreach (var item in _tileMap)
             {

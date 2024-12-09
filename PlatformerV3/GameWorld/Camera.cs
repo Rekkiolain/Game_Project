@@ -20,8 +20,9 @@ namespace PlatformerV3.World
             var viewportAdapter = new BoxingViewportAdapter(Window, graphicsDevice, 1920, 1080);
             _camera = new OrthographicCamera(viewportAdapter);
             _camera.Origin = new Vector2(0, 0);
-            _camera.Zoom = 03;
+            _camera.Zoom = 3;
 
         }
+
     }
 }

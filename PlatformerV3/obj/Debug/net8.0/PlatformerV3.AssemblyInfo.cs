@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlatformerV3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+363ca774a07d7a7e94bd1c2d6587ff9bb593d885")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a3c2f19e5b5dbfdf953b6ec6c4b79bf0332037d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlatformerV3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlatformerV3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

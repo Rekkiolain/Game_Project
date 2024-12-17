@@ -16,16 +16,7 @@ namespace PlatformerV3.Entities
     public class Player : IEntity
     {
         public BaseSprite _marineBase;
-        public bool _isFalling;
-        public bool _isOnGround;
-        public bool _isIdle;
-
         private AnimatedSprite _marine;
-        private readonly float _speed = 1f;
-        private readonly float _jumpForce = -3.5f;
-        private readonly float _gravity = 0.1f;
-        private readonly float _maxFallSpeed = 3f;
-
         private float _jumpHoldTime = 0f;
         private const float _maxJumpTime = 0.3f;
 
@@ -39,10 +30,9 @@ namespace PlatformerV3.Entities
 
         public IShapeF Bounds => throw new NotImplementedException();
 
-        // Initialization logic
         public void Initialize()
         {
-            _marineBase = new BaseSprite(new Rectangle(0, 0, 12, 18), new RectangleF(new Vector2(0, 0), new SizeF(12, 18)));
+            _marineBase = new BaseSprite(0, 0, 12, 18, new RectangleF(new Vector2(0, 0), new SizeF(12, 18)));
             _keyboardListener = new KeyboardListener();
 
             bool isRunning = false;
@@ -119,7 +109,8 @@ namespace PlatformerV3.Entities
 
         public void Update(GameTime gameTime)
         {
-            _marineBase.Update(gameTime,_marine);
+            _marineBase.DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+
             _keyboardListener.Update(gameTime);
             _marine.Update(gameTime);
             HandleMovement();
@@ -137,16 +128,14 @@ namespace PlatformerV3.Entities
             KeyboardExtended.Update();
             KeyboardStateExtended keyboardState = KeyboardExtended.GetState();
 
-
-            if (!_isOnGround)
+            if (!_marineBase.isOnGround) 
             {
-                _marineBase.Velocity.Y += _gravity;
-                if (_marineBase.Velocity.Y > _maxFallSpeed)
-                    _marineBase.Velocity.Y = _maxFallSpeed;
+                _marineBase.Velocity.Y += _marineBase._gravity;
+                if (_marineBase.Velocity.Y > _marineBase._maxFallSpeed)
+                    _marineBase.Velocity.Y = _marineBase._maxFallSpeed;
             }
 
-
-            if (keyboardState.IsKeyDown(Keys.Space) && _isOnGround)
+            if (keyboardState.IsKeyDown(Keys.Space) && _marineBase.isOnGround)
             {
                 _jumpHoldTime += _marineBase.DeltaTime;
 
@@ -155,25 +144,23 @@ namespace PlatformerV3.Entities
                     _jumpHoldTime = _maxJumpTime;
                 }
 
-                _marineBase.Velocity.Y = _jumpForce * (1 + _jumpHoldTime * 2);
-
+                _marineBase.Velocity.Y = _marineBase._jumpForce * (1 + _jumpHoldTime * 2);
+                _marineBase.isOnGround = false;
+                _marineBase.isFalling = true;
                 _marine.SetAnimation("Jump");
             }
-            else if (keyboardState.IsKeyDown(Keys.Space) && !_isOnGround)
+            else if (keyboardState.IsKeyDown(Keys.Space) && !_marineBase.isOnGround)
             {
-
-                _marineBase.Velocity.Y = Math.Max(_marineBase.Velocity.Y, _jumpForce);
+                _marineBase.Velocity.Y = Math.Max(_marineBase.Velocity.Y, _marineBase._jumpForce);
             }
             else
             {
-
                 _jumpHoldTime = 0f;
             }
 
-
             if (keyboardState.IsKeyDown(Keys.D))
             {
-                _marineBase.Position.X += _speed;
+                _marineBase.Position.X += _marineBase._speed;
                 if (_marine.CurrentAnimation != "Run")
                 {
                     _marine.SetAnimation("Run");
@@ -182,7 +169,7 @@ namespace PlatformerV3.Entities
             }
             else if (keyboardState.IsKeyDown(Keys.Q))
             {
-                _marineBase.Position.X -= _speed;
+                _marineBase.Position.X -= _marineBase._speed;
                 if (_marine.CurrentAnimation != "Run")
                 {
                     _marine.SetAnimation("Run");
@@ -196,7 +183,6 @@ namespace PlatformerV3.Entities
                     _marine.SetAnimation("Idle");
                 }
             }
-
 
             _marineBase.Position.Y += _marineBase.Velocity.Y;
         }

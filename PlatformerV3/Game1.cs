@@ -23,7 +23,6 @@ namespace PlatformerV3
 
         protected override void Initialize()
         {
-            // TODO: Add your initialization logic here
             level1 = new Level_1();
             level1.Initialize(Window,GraphicsDevice);
             base.Initialize();
@@ -33,7 +32,6 @@ namespace PlatformerV3
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             level1.LoadContent(Content,GraphicsDevice);
-            // TODO: use this.Content to load your game content here
         }
 
         protected override void Update(GameTime gameTime)
@@ -41,7 +39,6 @@ namespace PlatformerV3
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
             level1.Update(gameTime);
-            // TODO: Add your update logic here
 
             base.Update(gameTime);
         }

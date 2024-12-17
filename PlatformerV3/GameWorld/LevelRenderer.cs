@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGame.Extended;
 using PlatformerV3.Entities;
+using PlatformerV3.Entities.Sprites;
 using PlatformerV3.World;
 using System.Collections.Generic;
 using System.IO;
@@ -12,23 +13,21 @@ namespace PlatformerV3.GameWorld
     internal class LevelRenderer
     {
         private List<Rectangle> _textureStore;
+
         private Texture2D _textureAtlas;
-        private Player _player;
-        private EntityCollisionsV2 collisions;
         private Camera _camera;
+        public EntityCollisionsV2 collisions;
 
         public LevelRenderer()
         {
             collisions = new EntityCollisionsV2();
             _camera = new Camera();
-            _player = new Player();
         }
 
 
         public void Initialize(GameWindow window, GraphicsDevice graphicsDevice)
         {
             _camera.Initialize(window, graphicsDevice);
-            _player.Initialize();
         }
 
         public void LoadContentPart1(ContentManager content)
@@ -39,32 +38,14 @@ namespace PlatformerV3.GameWorld
 
         public void LoadContentPart2(ContentManager content, Dictionary<Vector2, int> _collisionsList, Dictionary<Vector2, int> _mapBounds, GraphicsDevice graphicsDevice)
         {
-            collisions.GenerateCollisionRectangles(_collisionsList,_mapBounds);
-
+            collisions.GenerateCollisionRectangles(_collisionsList, _mapBounds);
 
             collisions.CreateRedTexture(graphicsDevice);
-
-            _player.LoadContent(content);
         }
 
         public void Update(GameTime gameTime)
         {
-            collisions._collisionRectangles.Remove(_player._marineBase.HitBox);
-
-            _player.Update(gameTime);
-
-            collisions.Collision(_player._marineBase.Bounds.ToRectangle(), ref _player._marineBase.Position, ref _player._isFalling, ref _player._isIdle, ref _player._isOnGround);
-
-            _player._marineBase.Bounds.Position = _player._marineBase.Position;
-            _player._marineBase.HitBox = _player._marineBase.Bounds.ToRectangle();
-
-            collisions.addEntity(_player._marineBase.HitBox);
-        }
-
-        public void Draw(SpriteBatch spriteBatch)
-        {
-            collisions.Draw(spriteBatch);
-            _player.Draw(spriteBatch);
+            
         }
 
         public void getSpriteSheet()
@@ -131,7 +112,9 @@ namespace PlatformerV3.GameWorld
             return result;
         }
 
-        public Matrix getTransformationMatrix() { return _camera._camera.GetViewMatrix(); }
-
+        public Matrix getTransformationMatrix()
+        {
+            return _camera._camera.GetViewMatrix();
+        }    
     }
 }

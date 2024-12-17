@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using MonoGame.Extended;
+using MonoGame.Extended.Collisions.Layers;
 using MonoGame.Extended.Graphics;
 using MonoGame.Extended.Input.InputListeners;
 
@@ -15,14 +16,23 @@ namespace PlatformerV3.Entities.Sprites
         public Vector2 Position;
         public float DeltaTime;
 
+        public bool isIdle;
+        public bool isFalling;
+        public bool isOnGround;
+
+        public float _speed = 1f;
+        public float _jumpForce = -3.5f;
+        public float _gravity = 0.1f;
+        public float _maxFallSpeed = 3f;
+
         public SpriteSheet SpriteSheet;
         public SpriteEffects SpriteEffects = SpriteEffects.None;
 
         private const float Scale = 0.5f;
 
-        public BaseSprite(Rectangle bounds, RectangleF hitBox)
+        public BaseSprite(int x, int y, int width, int heigth, RectangleF hitBox)
         {
-            Bounds = bounds;
+            Bounds = new Rectangle(x, y, width, heigth);
             HitBox = hitBox.ToRectangle();
         }
 
@@ -32,13 +42,6 @@ namespace PlatformerV3.Entities.Sprites
             var atlas = Texture2DAtlas.Create(fileName, texture, width, height);
             SpriteSheet = new SpriteSheet(fileName, atlas);
         }
-
-        public void Update(GameTime gameTime, AnimatedSprite _sprite)
-        {
-            DeltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            _sprite.Update(gameTime);
-        }
-
         public virtual void Draw(SpriteBatch spriteBatch, int width, int height, Vector2 offset, AnimatedSprite _sprite)
         {
             var hitBoxCenter = HitBox.Center.ToVector2();
@@ -60,5 +63,11 @@ namespace PlatformerV3.Entities.Sprites
                 layerDepth: 0f
             );
         }
+        public void SetStartPosition(Vector2 startPosition)
+        {
+            Position = startPosition;
+            Bounds.Position = startPosition;
+        }
+
     }
 }

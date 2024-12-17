@@ -64,26 +64,21 @@ namespace PlatformerV3.Entities
 
         public void Collision(Rectangle playerHitbox, ref Vector2 playerPosition, ref bool isIdle, ref bool isFalling, ref bool isOnGround)
         {
-            var initPosition = playerPosition;
             isOnGround = false;
             const int margin = 2;
 
-           
             Rectangle groundCheck = new Rectangle(playerHitbox.X + margin, playerHitbox.Bottom, playerHitbox.Width - margin * 2, 1);
 
-            
             Rectangle ceilingCheck = new Rectangle(playerHitbox.X + margin, playerHitbox.Y - 1, playerHitbox.Width - margin * 2, 1);
 
             foreach (var rect in _collisionRectangles)
             {
-               
                 Rectangle leftWallCheck = new Rectangle(playerHitbox.X - margin, playerHitbox.Y + margin, 1 + margin, playerHitbox.Height - margin * 2);
                 if (rect.Intersects(leftWallCheck))
                 {
-                   
                     if (playerPosition.X < rect.Right)
                     {
-                        playerPosition.X = rect.Right; 
+                        playerPosition.X = rect.Right;
                         isIdle = true;
                     }
                 }
@@ -91,7 +86,6 @@ namespace PlatformerV3.Entities
                 Rectangle rightWallCheck = new Rectangle(playerHitbox.Right, playerHitbox.Y + margin, 1 + margin, playerHitbox.Height - margin * 2);
                 if (rect.Intersects(rightWallCheck))
                 {
-                    
                     if (playerPosition.X > rect.Left - playerHitbox.Width)
                     {
                         playerPosition.X = rect.Left - playerHitbox.Width;
@@ -105,26 +99,21 @@ namespace PlatformerV3.Entities
                     isFalling = false;
                     if (playerPosition.Y + playerHitbox.Height > rect.Top)
                     {
-                        playerPosition.Y = rect.Top - playerHitbox.Height; 
+                        playerPosition.Y = rect.Top - playerHitbox.Height;
                     }
                 }
 
                 if (rect.Intersects(ceilingCheck))
                 {
-                   
                     if (playerPosition.Y < rect.Bottom)
                     {
-                        playerPosition.Y = rect.Bottom; 
-                        isFalling = true; 
+                        playerPosition.Y = rect.Bottom;
                     }
+                    isFalling = true;
+                    isOnGround = false;
                 }
             }
 
-            
-            if (!isOnGround)
-            {
-                isFalling = true;
-            }
         }
 
         public void Draw(SpriteBatch spriteBatch)

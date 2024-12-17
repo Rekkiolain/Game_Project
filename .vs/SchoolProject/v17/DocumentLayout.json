@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|c:\\users\\me\\desktop\\platformerv3\\schoolproject\\platformerv3\\entities\\sprites\\npc\u0027s\\toad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|solutionrelative:platformerv3\\entities\\sprites\\npc\u0027s\\toad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|c:\\users\\me\\desktop\\platformerv3\\schoolproject\\platformerv3\\entities\\sprites\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|solutionrelative:platformerv3\\entities\\sprites\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|c:\\users\\me\\desktop\\platformerv3\\schoolproject\\platformerv3\\entities\\entitycollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|solutionrelative:platformerv3\\entities\\entitycollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|c:\\users\\me\\desktop\\platformerv3\\schoolproject\\platformerv3\\gameworld\\levelrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|solutionrelative:platformerv3\\gameworld\\levelrenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|c:\\users\\me\\desktop\\platformerv3\\schoolproject\\platformerv3\\gameworld\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|solutionrelative:platformerv3\\gameworld\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|c:\\users\\me\\desktop\\platformerv3\\schoolproject\\platformerv3\\gameworld\\level1\\level_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|solutionrelative:platformerv3\\gameworld\\level1\\level_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|c:\\users\\me\\desktop\\platformerv3\\schoolproject\\platformerv3\\entities\\sprites\\basesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|solutionrelative:platformerv3\\entities\\sprites\\basesprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|c:\\users\\me\\desktop\\platformerv3\\schoolproject\\platformerv3\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AA1CB8D-254F-4760-A95F-D1FECC2CC16A}|PlatformerV3\\PlatformerV3.csproj|solutionrelative:platformerv3\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Camera.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\GameWorld\\Camera.cs",
+              "RelativeDocumentMoniker": "PlatformerV3\\GameWorld\\Camera.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\GameWorld\\Camera.cs",
+              "RelativeToolTip": "PlatformerV3\\GameWorld\\Camera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T11:06:26.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Toad.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Entities\\Sprites\\NPC\u0027s\\Toad.cs",
+              "RelativeDocumentMoniker": "PlatformerV3\\Entities\\Sprites\\NPC\u0027s\\Toad.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Entities\\Sprites\\NPC\u0027s\\Toad.cs",
+              "RelativeToolTip": "PlatformerV3\\Entities\\Sprites\\NPC\u0027s\\Toad.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwv1YAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T00:53:53.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EntityCollisions.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Entities\\EntityCollisions.cs",
+              "RelativeDocumentMoniker": "PlatformerV3\\Entities\\EntityCollisions.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Entities\\EntityCollisions.cs",
+              "RelativeToolTip": "PlatformerV3\\Entities\\EntityCollisions.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwEAAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:16:27.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LevelRenderer.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\GameWorld\\LevelRenderer.cs",
+              "RelativeDocumentMoniker": "PlatformerV3\\GameWorld\\LevelRenderer.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\GameWorld\\LevelRenderer.cs",
+              "RelativeToolTip": "PlatformerV3\\GameWorld\\LevelRenderer.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAD4v3cAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T21:21:53.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Entities\\Sprites\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "PlatformerV3\\Entities\\Sprites\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Entities\\Sprites\\Player\\Player.cs",
+              "RelativeToolTip": "PlatformerV3\\Entities\\Sprites\\Player\\Player.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAlwIIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:24:02.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Game1.cs",
+              "RelativeDocumentMoniker": "PlatformerV3\\Game1.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Game1.cs",
+              "RelativeToolTip": "PlatformerV3\\Game1.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:23:16.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Level_1.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\GameWorld\\Level1\\Level_1.cs",
+              "RelativeDocumentMoniker": "PlatformerV3\\GameWorld\\Level1\\Level_1.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\GameWorld\\Level1\\Level_1.cs",
+              "RelativeToolTip": "PlatformerV3\\GameWorld\\Level1\\Level_1.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAjwEcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:23:11.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseSprite.cs",
+              "DocumentMoniker": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Entities\\Sprites\\BaseSprite.cs",
+              "RelativeDocumentMoniker": "PlatformerV3\\Entities\\Sprites\\BaseSprite.cs",
+              "ToolTip": "C:\\Users\\me\\Desktop\\PlatformerV3\\SchoolProject\\PlatformerV3\\Entities\\Sprites\\BaseSprite.cs",
+              "RelativeToolTip": "PlatformerV3\\Entities\\Sprites\\BaseSprite.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:23:07.751Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
